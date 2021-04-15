@@ -1,11 +1,41 @@
-{   
-   "name": "meuCompendioFoundryVTT",   
-   "title": ".Meu Compêndio",   
-   "description": "Esse modulo contém compêndios em português de D&D 5º Edição.",   
-   "author": "Renan Matias",
-   "version": "1.0.0",
-   "minimumCoreVersion": "0.7.9",
-   "compatibleCoreVersion":"0.7.9",
-   "manifest": "https://raw.githubusercontent.com/RenanMatias/meuCompendioFoundryVTT/main/module.json",
-   "download": "https://github.com/RenanMatias/meuCompendioFoundryVTT/archive/main.zip"
+{
+  "name": "meuCompendioFoundryVTT",
+  "title": ".Meu Compêndio",
+  "description": "Esse modulo contém compêndios em português de D&D 5º Edição.",
+  "author": "Renan Matias",
+  "version": "1.0.0",
+  "minimumCoreVersion": "0.7.9",
+  "compatibleCoreVersion":"0.7.9",
+  "packs": [
+    {
+      "name": "diario",
+      "label": ".Diários",
+      "path": "packs/diario.db",
+      "entity": "JournalEntry",
+      "module": "meuCompendioFoundryVTT"
+    },
+    {
+      "name": "magias",
+      "label": ".Magias",
+      "path": "packs/magias.db",
+      "entity": "Item",
+      "module": "meuCompendioFoundryVTT"
+    },
+    {
+      "name": "itens",
+      "label": ".Itens",
+      "path": "packs/itens.db",
+      "entity": "Item",
+      "module": "meuCompendioFoundryVTT"
+    },
+    {
+      "name": "monstros",
+      "label": ".Monstros",
+      "path": "packs/monstros.db",
+      "entity": "Actor",
+      "module": "meuCompendioFoundryVTT"
+    }
+  ],
+  "manifest": "https://raw.githubusercontent.com/RenanMatias/meuCompendioFoundryVTT/main/module.json",
+  "download": "https://github.com/RenanMatias/meuCompendioFoundryVTT/archive/main.zip"
 }

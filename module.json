@@ -29,6 +29,27 @@
       "module": "meuCompendioFoundryVTT"
     },
     {
+      "name": "caracteristicaClasse",
+      "label": ".Característica de Classse",
+      "path": "packs/caracteristicaClasse.db",
+      "entity": "Item",
+      "module": "meuCompendioFoundryVTT"
+    },
+    {
+      "name": "caracteristicaMonstro",
+      "label": ".Característica de Monstro",
+      "path": "packs/caracteristicaMonstro.db",
+      "entity": "Item",
+      "module": "meuCompendioFoundryVTT"
+    },
+    {
+      "name": "talentos",
+      "label": ".Talentos",
+      "path": "packs/talentos.db",
+      "entity": "Item",
+      "module": "meuCompendioFoundryVTT"
+    },
+    {
       "name": "monstros",
       "label": ".Monstros",
       "path": "packs/monstros.db",

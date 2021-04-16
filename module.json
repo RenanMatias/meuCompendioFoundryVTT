@@ -3,7 +3,7 @@
   "title": ".Meu Compêndio",
   "description": "Esse modulo contém compêndios em português de D&D 5º Edição.",
   "author": "Renan Matias",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "minimumCoreVersion": "0.7.9",
   "compatibleCoreVersion":"0.7.9",
   "packs": [

@@ -3,7 +3,7 @@
   "title": ".Meu Compêndio",
   "description": "Esse modulo contém compêndios em português de D&D 5º Edição.",
   "author": "Renan Matias",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "minimumCoreVersion": "0.7.9",
   "compatibleCoreVersion":"0.8.6",
   "packs": [
@@ -63,6 +63,9 @@
       "manifest": "https://gitlab.com/foundry-vtt/foundryvtt-metricsystem-module/raw/master/module.json"
     }
   ],
+  "styles": [
+      "css/editor.css"
+    ],
   "manifest": "https://raw.githubusercontent.com/RenanMatias/meuCompendioFoundryVTT/main/module.json",
   "download": "https://github.com/RenanMatias/meuCompendioFoundryVTT/archive/main.zip"
 }

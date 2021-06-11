@@ -57,12 +57,6 @@
       "module": "meuCompendioFoundryVTT"
     }
   ],
-  "dependencies": [
-    {
-      "name": "metric-system-dnd5e",
-      "manifest": "https://gitlab.com/foundry-vtt/foundryvtt-metricsystem-module/raw/master/module.json"
-    }
-  ],
   "styles": [
       "css/editor.css"
     ],

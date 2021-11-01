@@ -3,63 +3,80 @@
   "title": ".Meu Compêndio",
   "description": "Esse modulo contém compêndios em português de D&D 5º Edição.",
   "author": "Renan Matias",
+  "authors": [],
+  "flags": {},
   "version": "1.0.6",
   "minimumCoreVersion": "0.7.9",
-  "compatibleCoreVersion":"0.8.6",
+  "compatibleCoreVersion": "0.8.6",
+  "scripts": [],
+  "esmodules": [],
+  "styles": [
+    "css/editor.css"
+  ],
+  "languages": [],
   "packs": [
     {
       "name": "diario",
       "label": ".Diários",
       "path": "packs/diario.db",
       "entity": "JournalEntry",
-      "module": "meuCompendioFoundryVTT"
+      "module": "meuCompendioFoundryVTT",
+      "private": false
     },
     {
       "name": "magias",
       "label": ".Magias",
       "path": "packs/magias.db",
       "entity": "Item",
-      "module": "meuCompendioFoundryVTT"
+      "module": "meuCompendioFoundryVTT",
+      "private": false
     },
     {
       "name": "itens",
       "label": ".Itens",
       "path": "packs/itens.db",
       "entity": "Item",
-      "module": "meuCompendioFoundryVTT"
+      "module": "meuCompendioFoundryVTT",
+      "private": false
     },
     {
       "name": "caracteristicaClasse",
       "label": ".Característica de Classse",
       "path": "packs/caracteristicaClasse.db",
       "entity": "Item",
-      "module": "meuCompendioFoundryVTT"
+      "module": "meuCompendioFoundryVTT",
+      "private": false
     },
     {
       "name": "caracteristicaMonstro",
       "label": ".Característica de Monstro",
       "path": "packs/caracteristicaMonstro.db",
       "entity": "Item",
-      "module": "meuCompendioFoundryVTT"
+      "module": "meuCompendioFoundryVTT",
+      "private": false
     },
     {
       "name": "talentos",
       "label": ".Talentos",
       "path": "packs/talentos.db",
       "entity": "Item",
-      "module": "meuCompendioFoundryVTT"
+      "module": "meuCompendioFoundryVTT",
+      "private": false
     },
     {
       "name": "monstros",
       "label": ".Monstros",
       "path": "packs/monstros.db",
       "entity": "Actor",
-      "module": "meuCompendioFoundryVTT"
+      "module": "meuCompendioFoundryVTT",
+      "private": false
     }
   ],
-  "styles": [
-      "css/editor.css"
-    ],
+  "system": [],
+  "dependencies": [],
+  "socket": false,
   "manifest": "https://raw.githubusercontent.com/RenanMatias/meuCompendioFoundryVTT/main/module.json",
-  "download": "https://github.com/RenanMatias/meuCompendioFoundryVTT/archive/main.zip"
+  "download": "https://github.com/RenanMatias/meuCompendioFoundryVTT/archive/main.zip",
+  "protected": false,
+  "coreTranslation": false
 }

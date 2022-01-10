@@ -5,9 +5,9 @@
   "author": "Renan Matias",
   "authors": [],
   "flags": {},
-  "version": "1.0.6",
+  "version": "1.0.8",
   "minimumCoreVersion": "0.7.9",
-  "compatibleCoreVersion": "0.8.9",
+  "compatibleCoreVersion": "9",
   "scripts": [],
   "esmodules": [],
   "styles": [
@@ -68,6 +68,14 @@
       "label": ".Monstros",
       "path": "packs/monstros.db",
       "entity": "Actor",
+      "module": "meuCompendioFoundryVTT",
+      "private": false
+    },
+    {
+      "name": "battlemap",
+      "label": ".Battle Map",
+      "path": "packs/battlemap.db",
+      "entity": "Scene",
       "module": "meuCompendioFoundryVTT",
       "private": false
     }
